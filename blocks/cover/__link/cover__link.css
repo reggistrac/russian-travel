@@ -1,0 +1,10 @@
+.cover__link {
+    grid-area: cell;
+	margin: 0px;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+.cover__link:hover {
+	cursor: url('../../../images/Imported Layers Copy 4.svg'), pointer;
+}

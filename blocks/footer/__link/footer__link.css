@@ -1,0 +1,16 @@
+.footer__link {
+	font-family: inter;
+	font-weight: normal;
+	color: white;
+	font-size: 16px;
+	line-height: 1,12;
+	margin-right: 18px;
+}
+
+.footer__link:hover {
+	cursor: url('../../../images/Imported Layers Copy 4.svg'), pointer;
+}
+
+@media (max-width: 425px) {
+	.footer__link {margin-bottom: 32px;}
+}

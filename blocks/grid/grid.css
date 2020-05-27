@@ -1,0 +1,17 @@
+@import url('./__item/grid__item.css');
+
+.grid {
+    max-width: calc(100% - 96px);
+    margin: 0px auto 92px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-gap: 16px;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .grid {max-width: calc(100% - 48px);}
+}
+
+@media (max-width: 425px) {
+    .grid {max-width: calc(100% - 16px);}
+}

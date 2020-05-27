@@ -1,0 +1,5 @@
+.places__website {
+	margin: 0px;
+	/*grid-area: web;*/
+	align-self: end;
+}

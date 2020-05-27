@@ -1,0 +1,24 @@
+@import url('./__img/cover__img.css');
+
+@import url('./__caption/cover__caption.css');
+
+@import url('./__title/cover__title.css');
+
+@import url('./__text/cover__text.css');
+
+@import url('./__link/cover__link.css');
+
+.cover {
+    display: grid;
+    grid-template-columns: minmax(320px, 1fr);
+    grid-template-areas: 
+    "cell";
+    justify-items: center;
+    align-items: center;
+    margin: 0px auto 92px auto;
+    width: calc(100% - 96px);
+}
+
+@media (max-width: 1024px) {
+    .cover {width: 100%}
+}

@@ -1,0 +1,16 @@
+.places__link {
+	font-family: inter;
+	font-weight: normal;
+	color: white;
+	font-size: 18px;
+	line-height: 1.22;
+	margin: 0px;
+}
+
+.places__link:hover {
+	cursor: url('../../../images/Imported Layers Copy 4.svg'), pointer;
+}
+
+@media (max-width: 768px) {
+    .places__link {font-size: 16px;}
+}

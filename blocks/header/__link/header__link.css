@@ -1,0 +1,16 @@
+.header__link {
+	font-family: inter;
+	color: white;
+	font-size: 24px;
+	line-height: 1.17;
+	text-decoration: none;
+	margin-left: 18px;
+}
+
+.header__link:hover {
+	cursor: url('../../../images/Imported Layers Copy 4.svg'), pointer;
+}
+
+@media (max-width: 425px) {
+    .header__link {font-size: 18px;}
+}

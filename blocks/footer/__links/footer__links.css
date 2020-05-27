@@ -1,0 +1,12 @@
+.footer__links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 425px) {
+	.footer__links {flex-direction: column;
+					flex-wrap: nowrap;
+					align-items: flex-start;}
+}
