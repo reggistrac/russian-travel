@@ -8,5 +8,6 @@
 @media (max-width: 425px) {
 	.footer__links {flex-direction: column;
 					flex-wrap: nowrap;
-					align-items: flex-start;}
+					align-items: flex-start;
+					margin-bottom: 48px;}
 }

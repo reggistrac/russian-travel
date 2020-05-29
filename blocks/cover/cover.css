@@ -15,10 +15,10 @@
     "cell";
     justify-items: center;
     align-items: center;
-    margin: 0px auto 92px auto;
-    width: calc(100% - 96px);
+    margin: 0px auto 0px auto;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
-    .cover {width: 100%}
+    .cover {width: 100%;}
 }

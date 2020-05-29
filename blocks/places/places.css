@@ -26,10 +26,10 @@
     .places {width: calc(100% - 96px);}
 }
 
-/*@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
     .places {width: calc(100% - 48px);}
-}*/
+}
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .places {width: 100%;}
 }

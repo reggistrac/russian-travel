@@ -1,6 +1,6 @@
 .lead__title {
 	color: white;
-	font-family: interBlack;
+	font-family: 'interBlack','Arial', sans-serif;
 	font-weight: normal;
 	font-size: 96px;
 	line-height: 1.04;
@@ -9,7 +9,7 @@
 	margin: 0px 0px 32px 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .lead__title {font-size: 40px;
         		margin: 0px 0px 16px 0px;}
 }

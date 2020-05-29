@@ -3,5 +3,5 @@
 	flex-direction: column;
 	align-items: center;
 	grid-area: cell;
-	z-index: 2;
-{
+	z-index: 3;
+}

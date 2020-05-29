@@ -1,7 +1,7 @@
 .footer__author {
-	font-family: inter;
+	font-family: 'inter','Arial', sans-serif;
 	font-weight: normal;
 	color: white;
 	font-size: 14px;
-	line-height: 1,14;
+	line-height: 1.0;
 }

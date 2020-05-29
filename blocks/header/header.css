@@ -2,7 +2,7 @@
 
 @import url(./__link/header__link.css);
 
-@import url(./ActiveLink/ActiveLink.css);
+@import url(./__link/_active/header__link_active.css);
 
 .header {
     display: flex;
