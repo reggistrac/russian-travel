@@ -8,10 +8,19 @@
     grid-gap: 16px;
 }
 
+@media (min-width: 769px) and (max-width: 1025px) {
+    .grid {
+            grid-gap: 14px;}
+}
+
 @media (min-width: 426px) and (max-width: 768px) {
-    .grid {max-width: calc(100% - 48px);}
+    .grid {width: calc(100% - 48px);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 16px;}
 }
 
 @media (max-width: 425px) {
-    .grid {max-width: calc(100% - 16px);}
+    .grid {width: calc(100% - 16px);
+            grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+            grid-gap: 12px;}
 }

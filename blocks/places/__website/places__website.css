@@ -1,5 +1,6 @@
 .places__website {
-	margin: 0px;
+	margin-left: 0px;
+	margin-right: auto;
 	align-self: end;
 }
 

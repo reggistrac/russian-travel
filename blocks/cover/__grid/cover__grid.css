@@ -1,0 +1,9 @@
+.cover__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(320px, 1fr);
+    grid-template-areas: 
+    "cell";
+    justify-items: center;
+    align-items: center;
+}

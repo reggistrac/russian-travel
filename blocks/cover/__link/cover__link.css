@@ -1,6 +1,6 @@
 .cover__link {
-    width: calc(100% - 96px);
-	margin: 0px auto 92px auto;
+    margin: 0px auto 0px auto;
+    width: 100%;
     
     text-decoration: none;
 }
@@ -9,11 +9,3 @@
     cursor: url('../../../images/Imported Layers Copy 4.svg'), pointer;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
-    .cover__link {margin: 0px auto 88px auto;}
-}
-
-@media (max-width: 425px) {
-    .cover__link {width: 100%;
-                margin: 0px auto 64px auto;}
-}

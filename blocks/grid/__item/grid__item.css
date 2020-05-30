@@ -1,4 +1,17 @@
 .grid__item {
-    max-width: 100%;
+    width: 100%;
+    min-height: 213px;
     object-fit: cover;
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .grid__item {min-height: 225px;}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .grid__item {min-height: 264px;}
+}
+
+@media (max-width: 425px) {
+    .grid__item {min-height: 216px;}
 }

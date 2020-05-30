@@ -8,17 +8,25 @@
 
 @import url('./__link/cover__link.css');
 
+@import url('./__grid/cover__grid.css');
+
 .cover {
-    display: grid;
-    grid-template-columns: minmax(320px, 1fr);
-    grid-template-areas: 
-    "cell";
-    justify-items: center;
-    align-items: center;
-    margin: 0px auto 0px auto;
-    width: 100%;
+
+    width: calc(100% - 96px);
+	margin: 0px auto 92px auto;
+
 }
 
 @media (max-width: 1024px) {
     .cover {width: 100%;}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .cover {width: 100%;
+            margin: 0px auto 88px auto;}
+}
+
+@media (max-width: 425px) {
+    .cover {width: 100%;
+            margin: 0px auto 64px auto;}
 }
