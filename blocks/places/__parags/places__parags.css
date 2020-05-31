@@ -1,8 +1,12 @@
 .places__parags {
-	margin: 0px;
+	margin: 0px auto;
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+	.places__parags {max-width: 345px;}
 }
 
 @media (max-width: 425px) {
-    .places__parags {max-width: calc(100% - 32px);
+	.places__parags {width: calc(100% - 32px);
 					margin: 0px auto;}
 }

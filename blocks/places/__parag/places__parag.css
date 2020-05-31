@@ -8,9 +8,9 @@
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .places__parag {font-size: 15.5px;}
+    .places__parag {font-size: 16px;}
 }
 
 @media (max-width: 425px) {
-    .places__parag {font-size: 15.5px;}
+    .places__parag {font-size: 16px;}
 }

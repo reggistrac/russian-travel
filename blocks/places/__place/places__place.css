@@ -33,6 +33,6 @@
         display: grid;
         grid-template-columns: minmax(320px, 1fr);
         justify-items: center;
-        grid-row-gap: 48px;
+        grid-row-gap: 32px;
     }
 }

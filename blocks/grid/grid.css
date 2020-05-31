@@ -15,12 +15,14 @@
 
 @media (min-width: 426px) and (max-width: 768px) {
     .grid {width: calc(100% - 48px);
+            margin: 0px auto 88px auto;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             grid-gap: 16px;}
 }
 
 @media (max-width: 425px) {
-    .grid {width: calc(100% - 16px);
+    .grid {width: calc(100% - 32px);
+            margin: 0px auto 64px auto;
             grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
             grid-gap: 12px;}
 }
